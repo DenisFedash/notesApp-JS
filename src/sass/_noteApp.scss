@@ -1,0 +1,103 @@
+.container {
+  padding: 20px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.input-section {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.input-name {
+  margin-right: 5px;
+}
+
+.input-form {
+  padding: 5px;
+
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.table-container {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+th,
+td:nth-child(3) {
+  min-width: 150px;
+}
+
+th,
+td:nth-child(4) {
+  min-width: 200px;
+}
+button {
+  padding: 5px 10px;
+  margin: 2px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+btn:hover {
+  background-color: #f2f2f2;
+}
+
+.archiveBtn {
+  background-color: #ffc107;
+  color: #fff;
+}
+
+.archiveBtn:hover {
+  background-color: #ffa000;
+}
+
+.unarchiveBtn {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.unarchiveBtn:hover {
+  background-color: #45a049;
+}
+
+.editBtn {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.editBtn:hover {
+  background-color: #1e87db;
+}
+
+.deleteBtn {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.deleteBtn:hover {
+  background-color: #e53935;
+}
+
+.summary-table {
+  margin-top: 20px;
+}
